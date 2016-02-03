@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IPO.PersistenceServices.SerializationService</id>
+    <version>1.0.0</version>
+    <title>IPO.PersistenceServices.SerializationService</title>
+    <authors>IPO</authors>
+    <releaseNotes>Currently used in the forms persistence service</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a serialization service used in both the forms persistence service and client</description>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\IPO.PersistenceServices.SerializationService.dll" target="lib\net451\IPO.PersistenceServices.SerializationService.dll" />
+  </files>
+</package>

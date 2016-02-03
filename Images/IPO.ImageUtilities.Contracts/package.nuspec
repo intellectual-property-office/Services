@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IPO.ImageUtilities.Contracts</id>
+    <version>1.0.0</version>
+    <title>IPO.ImageUtilities.Contracts</title>
+    <authors>IPO</authors>
+    <releaseNotes>First release</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Interfaces for image utility services.</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\IPO.ImageUtilities.Contracts.dll" target="lib\net451\IPO.ImageUtilities.Contracts.dll" />
+  </files>
+</package>

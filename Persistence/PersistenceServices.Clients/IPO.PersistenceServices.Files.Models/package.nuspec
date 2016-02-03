@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>IPO.PersistenceServices.Files.Models</id>
+        <version>1.0.0</version>
+        <title>IPO.PersistenceServices.Files.Models</title>
+        <authors>IPO</authors>
+		<releaseNotes>First release containing dto classes to call the files persistence service</releaseNotes>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Use these dto classes to call the files persistence service</description>
+    </metadata>
+  <files>
+    <file src="bin\release\IPO.PersistenceServices.Files.Models.dll" target="lib\net451\IPO.PersistenceServices.Files.Models.dll" />
+  </files>
+</package>

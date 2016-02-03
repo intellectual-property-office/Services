@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.ImageUtilities.Contracts", "IPO.ImageUtilities.Contracts\IPO.ImageUtilities.Contracts.csproj", "{4E494E8A-A2D1-4A0B-B8DE-706DC4A086FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.ImageResizer", "IPO.ImageResizer\IPO.ImageResizer.csproj", "{5B8EC988-047F-4FE1-A44B-D4550103CC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.ImageConverter", "IPO.ImageConverter\IPO.ImageConverter.csproj", "{D1E2A97F-ACC9-4534-85AB-6D9AF239559F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1EBE169A-244F-496D-8398-412F03F23650}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsl1:8080/tfs/ipo
+		SccProjectUniqueName0 = IPO.ImageUtilities.Contracts\\IPO.ImageUtilities.Contracts.csproj
+		SccProjectName0 = IPO.ImageUtilities.Contracts
+		SccAuxPath0 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath0 = IPO.ImageUtilities.Contracts
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = IPO.ImageResizer\\IPO.ImageResizer.csproj
+		SccProjectName1 = IPO.ImageResizer
+		SccAuxPath1 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath1 = IPO.ImageResizer
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = IPO.ImageConverter\\IPO.ImageConverter.csproj
+		SccProjectName2 = IPO.ImageConverter
+		SccAuxPath2 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath2 = IPO.ImageConverter
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E494E8A-A2D1-4A0B-B8DE-706DC4A086FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E494E8A-A2D1-4A0B-B8DE-706DC4A086FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E494E8A-A2D1-4A0B-B8DE-706DC4A086FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E494E8A-A2D1-4A0B-B8DE-706DC4A086FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8EC988-047F-4FE1-A44B-D4550103CC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8EC988-047F-4FE1-A44B-D4550103CC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8EC988-047F-4FE1-A44B-D4550103CC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8EC988-047F-4FE1-A44B-D4550103CC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E2A97F-ACC9-4534-85AB-6D9AF239559F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E2A97F-ACC9-4534-85AB-6D9AF239559F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E2A97F-ACC9-4534-85AB-6D9AF239559F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E2A97F-ACC9-4534-85AB-6D9AF239559F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IPO.PersistenceServices.RestClient</id>
+    <version>1.0.0</version>
+    <title>IPO.PersistenceServices.RestClient</title>
+    <authors>IPO</authors>
+    <releaseNotes>Currently used across the persistence services</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HttpClient wrapper which allows async calls to Rest services</description>
+  </metadata>
+  <files>
+    <file src="bin\release\IPO.PersistenceServices.RestClient.dll" target="lib\net451\IPO.PersistenceServices.RestClient.dll" />
+  </files>
+</package>

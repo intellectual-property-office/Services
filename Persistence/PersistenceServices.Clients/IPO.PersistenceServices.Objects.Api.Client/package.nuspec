@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IPO.PersistenceServices.Objects.Api.Client</id>
+    <version>1.0.0</version>
+    <title>IPO.PersistenceServices.Objects.Api.Client</title>
+    <authors>IPO</authors>
+    <releaseNotes>Currently used across the persistence services</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HttpClient wrapper which allows async calls to Rest services</description>
+    <dependencies>
+      <dependency id="IPO.PersistenceServices.RestClient" />
+      <dependency id="IPO.PersistenceServices.SerializationService" />
+      <dependency id="Unity" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\IPO.PersistenceServices.Objects.Api.Client.dll" target="lib\net451\IPO.PersistenceServices.Objects.Api.Client.dll" />
+  </files>
+</package>

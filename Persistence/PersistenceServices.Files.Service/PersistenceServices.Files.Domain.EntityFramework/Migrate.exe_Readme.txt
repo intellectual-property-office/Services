@@ -1,0 +1,4 @@
+﻿The migrator.exe is being used as part of the Jenkins CI.
+It should be copied to the output directory as part of the build.
+The migrator.exe needs to be up-to-date with the version of EntityFramework used to create the migrations.
+It can be found in the tools folder in the relevant Entity Framework nuget package.

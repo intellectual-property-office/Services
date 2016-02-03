@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F56416A7-0B4B-4752-BFA8-D149953B73C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.Domain", "PersistenceServices.Forms.Domain\PersistenceServices.Forms.Domain.csproj", "{83BA7159-EE2A-4C80-B23E-AD3F6E356209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.Domain.EntityFramework", "PersistenceServices.Forms.Domain.EntityFramework\PersistenceServices.Forms.Domain.EntityFramework.csproj", "{66194CB2-E380-4D9D-B6AA-876E5573CEC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.Domain.Xml", "PersistenceServices.Forms.Domain.Xml\PersistenceServices.Forms.Domain.Xml.csproj", "{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.WebApi", "PersistenceServices.Forms.WebApi\PersistenceServices.Forms.WebApi.csproj", "{55D6DD3F-FD83-4D6B-BE3F-E88655313A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.Domain.Tests", "PersistenceServices.Forms.Domain.Tests\PersistenceServices.Forms.Domain.Tests.csproj", "{46D6260B-C13A-4F67-8476-FFF624EB7EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Forms.WebApi.Tests", "PersistenceServices.Forms.WebApi.Tests\PersistenceServices.Forms.WebApi.Tests.csproj", "{84A6798B-59C9-4F30-8081-F0FDF420DFB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{92267314-1D09-49A0-B32B-646CBA5E70CD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsl1:8080/tfs/ipo
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PersistenceServices.Forms.Domain\\PersistenceServices.Forms.Domain.csproj
+		SccProjectName1 = PersistenceServices.Forms.Domain
+		SccLocalPath1 = PersistenceServices.Forms.Domain
+		SccProjectUniqueName2 = PersistenceServices.Forms.Domain.EntityFramework\\PersistenceServices.Forms.Domain.EntityFramework.csproj
+		SccProjectName2 = PersistenceServices.Forms.Domain.EntityFramework
+		SccLocalPath2 = PersistenceServices.Forms.Domain.EntityFramework
+		SccProjectUniqueName3 = PersistenceServices.Forms.Domain.Xml\\PersistenceServices.Forms.Domain.Xml.csproj
+		SccProjectName3 = PersistenceServices.Forms.Domain.Xml
+		SccLocalPath3 = PersistenceServices.Forms.Domain.Xml
+		SccProjectUniqueName4 = PersistenceServices.Forms.WebApi\\PersistenceServices.Forms.WebApi.csproj
+		SccProjectName4 = PersistenceServices.Forms.WebApi
+		SccLocalPath4 = PersistenceServices.Forms.WebApi
+		SccProjectUniqueName5 = PersistenceServices.Forms.Domain.Tests\\PersistenceServices.Forms.Domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = PersistenceServices.Forms.Service.sln
+		SccProjectName5 = PersistenceServices.Forms.Domain.Tests
+		SccLocalPath5 = PersistenceServices.Forms.Domain.Tests
+		SccProjectUniqueName6 = PersistenceServices.Forms.WebApi.Tests\\PersistenceServices.Forms.WebApi.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = PersistenceServices.Forms.Service.sln
+		SccProjectName6 = PersistenceServices.Forms.WebApi.Tests
+		SccLocalPath6 = PersistenceServices.Forms.WebApi.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BA7159-EE2A-4C80-B23E-AD3F6E356209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BA7159-EE2A-4C80-B23E-AD3F6E356209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BA7159-EE2A-4C80-B23E-AD3F6E356209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BA7159-EE2A-4C80-B23E-AD3F6E356209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66194CB2-E380-4D9D-B6AA-876E5573CEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66194CB2-E380-4D9D-B6AA-876E5573CEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66194CB2-E380-4D9D-B6AA-876E5573CEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66194CB2-E380-4D9D-B6AA-876E5573CEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D6DD3F-FD83-4D6B-BE3F-E88655313A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D6DD3F-FD83-4D6B-BE3F-E88655313A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D6DD3F-FD83-4D6B-BE3F-E88655313A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D6DD3F-FD83-4D6B-BE3F-E88655313A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A6798B-59C9-4F30-8081-F0FDF420DFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A6798B-59C9-4F30-8081-F0FDF420DFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A6798B-59C9-4F30-8081-F0FDF420DFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A6798B-59C9-4F30-8081-F0FDF420DFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8} = {F56416A7-0B4B-4752-BFA8-D149953B73C0}
+		{84A6798B-59C9-4F30-8081-F0FDF420DFB6} = {F56416A7-0B4B-4752-BFA8-D149953B73C0}
+	EndGlobalSection
+EndGlobal

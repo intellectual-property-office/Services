@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IPO.PersistenceServices.Forms.Api.Client</id>
+    <version>1.0.0</version>
+    <title>IPO.PersistenceServices.Forms.Api.Client</title>
+    <authors>IPO</authors>
+    <releaseNotes>First release containing a rest client to call the forms persistence service</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Use this to call the forms persistence service</description>
+    <dependencies>
+      <dependency id="IPO.PersistenceServices.RestClient" />
+      <dependency id="IPO.PersistenceServices.SerializationService" />
+      <dependency id="Unity" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\IPO.PersistenceServices.Forms.Api.Client.dll" target="lib\net451\IPO.PersistenceServices.Forms.Api.Client.dll" />
+  </files>
+</package>

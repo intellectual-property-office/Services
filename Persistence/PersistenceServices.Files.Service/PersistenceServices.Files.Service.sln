@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.Domain.EntityFramework", "PersistenceServices.Files.Domain.EntityFramework\PersistenceServices.Files.Domain.EntityFramework.csproj", "{B1E0D157-3947-4EBF-A33B-996490C28B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.Domain", "PersistenceServices.Files.Domain\PersistenceServices.Files.Domain.csproj", "{CD1AE5A9-98A7-43A1-AE44-4A0861E7AE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.WebApi", "PersistenceServices.Files.WebApi\PersistenceServices.Files.WebApi.csproj", "{A2414EDF-5DED-4B0A-9337-970396001AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.WebApi.Tests", "PersistenceServices.Files.WebApi.Tests\PersistenceServices.Files.WebApi.Tests.csproj", "{6AEF0843-261D-4A59-A942-148A33391AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FB9123BA-259F-4DB8-AED4-55EEEBEDA083}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.Domain.Xml", "PersistenceServices.Files.Domain.Xml\PersistenceServices.Files.Domain.Xml.csproj", "{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceServices.Files.Domain.Tests", "PersistenceServices.Files.Domain.Tests\PersistenceServices.Files.Domain.Tests.csproj", "{46D6260B-C13A-4F67-8476-FFF624EB7EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{54D8880D-486D-4AF4-B047-5965BCAE001C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsl1:8080/tfs/ipo
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PersistenceServices.Files.Domain.EntityFramework\\PersistenceServices.Files.Domain.EntityFramework.csproj
+		SccProjectName1 = PersistenceServices.Files.Domain.EntityFramework
+		SccLocalPath1 = PersistenceServices.Files.Domain.EntityFramework
+		SccProjectUniqueName2 = PersistenceServices.Files.Domain.Tests\\PersistenceServices.Files.Domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName2 = PersistenceServices.Files.Service.sln
+		SccProjectName2 = PersistenceServices.Files.Domain.Tests
+		SccLocalPath2 = PersistenceServices.Files.Domain.Tests
+		SccProjectUniqueName3 = PersistenceServices.Files.Domain.Xml\\PersistenceServices.Files.Domain.Xml.csproj
+		SccProjectName3 = PersistenceServices.Files.Domain.Xml
+		SccLocalPath3 = PersistenceServices.Files.Domain.Xml
+		SccProjectUniqueName4 = PersistenceServices.Files.Domain\\PersistenceServices.Files.Domain.csproj
+		SccProjectName4 = PersistenceServices.Files.Domain
+		SccLocalPath4 = PersistenceServices.Files.Domain
+		SccProjectUniqueName5 = PersistenceServices.Files.WebApi.Tests\\PersistenceServices.Files.WebApi.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = PersistenceServices.Files.Service.sln
+		SccProjectName5 = PersistenceServices.Files.WebApi.Tests
+		SccLocalPath5 = PersistenceServices.Files.WebApi.Tests
+		SccProjectUniqueName6 = PersistenceServices.Files.WebApi\\PersistenceServices.Files.WebApi.csproj
+		SccProjectName6 = PersistenceServices.Files.WebApi
+		SccLocalPath6 = PersistenceServices.Files.WebApi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E0D157-3947-4EBF-A33B-996490C28B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E0D157-3947-4EBF-A33B-996490C28B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E0D157-3947-4EBF-A33B-996490C28B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E0D157-3947-4EBF-A33B-996490C28B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1AE5A9-98A7-43A1-AE44-4A0861E7AE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1AE5A9-98A7-43A1-AE44-4A0861E7AE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1AE5A9-98A7-43A1-AE44-4A0861E7AE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1AE5A9-98A7-43A1-AE44-4A0861E7AE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2414EDF-5DED-4B0A-9337-970396001AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2414EDF-5DED-4B0A-9337-970396001AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2414EDF-5DED-4B0A-9337-970396001AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2414EDF-5DED-4B0A-9337-970396001AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEF0843-261D-4A59-A942-148A33391AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEF0843-261D-4A59-A942-148A33391AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEF0843-261D-4A59-A942-148A33391AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEF0843-261D-4A59-A942-148A33391AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B53C9E2-1531-44A6-9407-7800CAFD4AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AEF0843-261D-4A59-A942-148A33391AA4} = {54D8880D-486D-4AF4-B047-5965BCAE001C}
+		{46D6260B-C13A-4F67-8476-FFF624EB7EB8} = {54D8880D-486D-4AF4-B047-5965BCAE001C}
+	EndGlobalSection
+EndGlobal

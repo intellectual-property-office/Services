@@ -1,0 +1,150 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Files.Client.Api.Tests", "IPO.PersistenceServices.Files.Api.Client.Tests\IPO.PersistenceServices.Files.Client.Api.Tests.csproj", "{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Files.Api.Client", "IPO.PersistenceServices.Files.Api.Client\IPO.PersistenceServices.Files.Api.Client.csproj", "{7A0ADA68-DF22-4232-8996-600F98434FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Files.Models", "IPO.PersistenceServices.Files.Models\IPO.PersistenceServices.Files.Models.csproj", "{DBE52D07-CF8C-41BE-B737-DF7D9CE48F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Forms.Api.Client", "IPO.PersistenceServices.Forms.Api.Client\IPO.PersistenceServices.Forms.Api.Client.csproj", "{251F700B-A5F0-4C1D-96CD-26FEB5BB7282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Forms.Api.Client.Tests", "IPO.PersistenceServices.Forms.Api.Client.Tests\IPO.PersistenceServices.Forms.Api.Client.Tests.csproj", "{0884F906-33D6-4BF5-979E-5B6FD59196CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.Objects.Api.Client", "IPO.PersistenceServices.Objects.Api.Client\IPO.PersistenceServices.Objects.Api.Client.csproj", "{D76EC6C1-C43C-40EA-B239-F000CFCD4ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.RestClient", "IPO.PersistenceServices.RestClient\IPO.PersistenceServices.RestClient.csproj", "{D42F8FA6-7DAC-4167-B7EF-53A98D2D82F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.RestClient.Tests", "IPO.PersistenceServices.RestClient.Tests\IPO.PersistenceServices.RestClient.Tests.csproj", "{CF11F2F1-51F1-4F45-B90F-8D11203040D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.SerializationService", "IPO.PersistenceServices.SerializationService\IPO.PersistenceServices.SerializationService.csproj", "{64C20071-A177-4467-B100-155C84D93233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPO.PersistenceServices.SerializationService.Tests", "IPO.PersistenceServices.SerializationService.Tests\IPO.PersistenceServices.SerializationService.Tests.csproj", "{901CB6BE-20FD-4D90-B94C-18C28F69AFBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{306BFC44-83F2-4339-9723-D7A10144522B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2AC5A054-FD04-439B-BED9-099792895158}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsl1:8080/tfs/ipo
+		SccProjectUniqueName0 = IPO.PersistenceServices.Files.Api.Client.Tests\\IPO.PersistenceServices.Files.Client.Api.Tests.csproj
+		SccProjectTopLevelParentUniqueName0 = PersistenceServices.Clients.sln
+		SccProjectName0 = IPO.PersistenceServices.Files.Api.Client.Tests
+		SccAuxPath0 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath0 = IPO.PersistenceServices.Files.Api.Client.Tests
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = IPO.PersistenceServices.Files.Api.Client\\IPO.PersistenceServices.Files.Api.Client.csproj
+		SccProjectName1 = IPO.PersistenceServices.Files.Api.Client
+		SccAuxPath1 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath1 = IPO.PersistenceServices.Files.Api.Client
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = IPO.PersistenceServices.Files.Models\\IPO.PersistenceServices.Files.Models.csproj
+		SccProjectName2 = IPO.PersistenceServices.Files.Models
+		SccAuxPath2 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath2 = IPO.PersistenceServices.Files.Models
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = IPO.PersistenceServices.Forms.Api.Client\\IPO.PersistenceServices.Forms.Api.Client.csproj
+		SccProjectName3 = IPO.PersistenceServices.Forms.Api.Client
+		SccAuxPath3 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath3 = IPO.PersistenceServices.Forms.Api.Client
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = IPO.PersistenceServices.Forms.Api.Client.Tests\\IPO.PersistenceServices.Forms.Api.Client.Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = PersistenceServices.Clients.sln
+		SccProjectName4 = IPO.PersistenceServices.Forms.Api.Client.Tests
+		SccAuxPath4 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath4 = IPO.PersistenceServices.Forms.Api.Client.Tests
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = IPO.PersistenceServices.Objects.Api.Client\\IPO.PersistenceServices.Objects.Api.Client.csproj
+		SccProjectName5 = IPO.PersistenceServices.Objects.Api.Client
+		SccAuxPath5 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath5 = IPO.PersistenceServices.Objects.Api.Client
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = IPO.PersistenceServices.RestClient\\IPO.PersistenceServices.RestClient.csproj
+		SccProjectName6 = IPO.PersistenceServices.RestClient
+		SccAuxPath6 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath6 = IPO.PersistenceServices.RestClient
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName7 = IPO.PersistenceServices.RestClient.Tests\\IPO.PersistenceServices.RestClient.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = PersistenceServices.Clients.sln
+		SccProjectName7 = IPO.PersistenceServices.RestClient.Tests
+		SccAuxPath7 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath7 = IPO.PersistenceServices.RestClient.Tests
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName8 = IPO.PersistenceServices.SerializationService\\IPO.PersistenceServices.SerializationService.csproj
+		SccProjectName8 = IPO.PersistenceServices.SerializationService
+		SccAuxPath8 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath8 = IPO.PersistenceServices.SerializationService
+		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName9 = IPO.PersistenceServices.SerializationService.Tests\\IPO.PersistenceServices.SerializationService.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = PersistenceServices.Clients.sln
+		SccProjectName9 = IPO.PersistenceServices.SerializationService.Tests
+		SccAuxPath9 = http://tfsl1:8080/tfs/ipo
+		SccLocalPath9 = IPO.PersistenceServices.SerializationService.Tests
+		SccProvider9 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0ADA68-DF22-4232-8996-600F98434FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0ADA68-DF22-4232-8996-600F98434FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0ADA68-DF22-4232-8996-600F98434FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0ADA68-DF22-4232-8996-600F98434FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE52D07-CF8C-41BE-B737-DF7D9CE48F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE52D07-CF8C-41BE-B737-DF7D9CE48F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE52D07-CF8C-41BE-B737-DF7D9CE48F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE52D07-CF8C-41BE-B737-DF7D9CE48F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251F700B-A5F0-4C1D-96CD-26FEB5BB7282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251F700B-A5F0-4C1D-96CD-26FEB5BB7282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251F700B-A5F0-4C1D-96CD-26FEB5BB7282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251F700B-A5F0-4C1D-96CD-26FEB5BB7282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0884F906-33D6-4BF5-979E-5B6FD59196CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0884F906-33D6-4BF5-979E-5B6FD59196CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0884F906-33D6-4BF5-979E-5B6FD59196CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0884F906-33D6-4BF5-979E-5B6FD59196CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76EC6C1-C43C-40EA-B239-F000CFCD4ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76EC6C1-C43C-40EA-B239-F000CFCD4ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76EC6C1-C43C-40EA-B239-F000CFCD4ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76EC6C1-C43C-40EA-B239-F000CFCD4ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42F8FA6-7DAC-4167-B7EF-53A98D2D82F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42F8FA6-7DAC-4167-B7EF-53A98D2D82F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42F8FA6-7DAC-4167-B7EF-53A98D2D82F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42F8FA6-7DAC-4167-B7EF-53A98D2D82F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF11F2F1-51F1-4F45-B90F-8D11203040D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF11F2F1-51F1-4F45-B90F-8D11203040D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF11F2F1-51F1-4F45-B90F-8D11203040D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF11F2F1-51F1-4F45-B90F-8D11203040D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C20071-A177-4467-B100-155C84D93233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C20071-A177-4467-B100-155C84D93233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C20071-A177-4467-B100-155C84D93233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C20071-A177-4467-B100-155C84D93233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901CB6BE-20FD-4D90-B94C-18C28F69AFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901CB6BE-20FD-4D90-B94C-18C28F69AFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901CB6BE-20FD-4D90-B94C-18C28F69AFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901CB6BE-20FD-4D90-B94C-18C28F69AFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D8DFE1A-D5F9-47D1-B70A-5009093FC80C} = {2AC5A054-FD04-439B-BED9-099792895158}
+		{0884F906-33D6-4BF5-979E-5B6FD59196CA} = {2AC5A054-FD04-439B-BED9-099792895158}
+		{CF11F2F1-51F1-4F45-B90F-8D11203040D2} = {2AC5A054-FD04-439B-BED9-099792895158}
+		{901CB6BE-20FD-4D90-B94C-18C28F69AFBF} = {2AC5A054-FD04-439B-BED9-099792895158}
+	EndGlobalSection
+EndGlobal
